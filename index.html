@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio-kouassi-siebe-adelphe</title>
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/style.css">
+    <!-- Swiper.js link cdm -->
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+    
+    <header class="header">
+
+        <a href="#home" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <!-- Icon mode couleur -->
+        <div><i class="bi bi-sun" id="dark-mode"></i></div>
+        
+        <!-- icon du menu visible à 768px -->
+        <div><i class="bi bi-list" id="menu-icon"></i></div>
+
+    </header>
+
+
+    <!-- Contenu de l'accueil -->
+
+    <section class="home" id="home">
+
+        <div class="home-content">
+
+            <h3>Salut, je suis</h3>
+            <h1>Siébé KOUASSI </h1>
+            <h5><strong>Professionnel en TIC et Solutions Numériques </strong> </h5>
+            <p>Avec plus de 3 ans d’expérience, j'accompagne les organisations dans leur transition numérique grâce à des solutions innovantes.</p>
+            
+            <div class="social-media">
+
+                <a href="https://www.facebook.com/siebeadelphe.kouassi/" onclick="window.open(this.href, '_blank'); return false;" rel="noopener noreferrer">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="https://www.linkedin.com/in/siebe-adelphe-eymard-vianney-kouassi-686b97217/" onclick="window.open(this.href, '_blank'); return false; "rel="noopener noreferrer">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/siebe-adelphe-eymard-vianney-kouassi-686b97217/" onclick="window.open(this.href, '_blank'); return false; "rel="noopener noreferrer">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+
+            </div>
+
+            <a href="#" class="btn">Télecharger mon CV</a>
+
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+
+
+                    <div class="profession" style="--i:0;">
+                        <i class='bx bx-code-alt'></i>
+                        <h3>Developpeur </h3>
+                    </div>
+
+                    <div class="profession" style="--i:1;">
+                        <i class='bx bxs-megaphone'></i>
+                        <h3>Marketeur </h3>
+                    </div>
+                    <div class="profession" style="--i:2;">
+                        <i class='bx bx-brain'></i>
+                        <h3>Consultant</h3>
+                        
+                    </div>
+                    <div class="profession" style="--i:3;">
+                        <i class='bx bx-chalkboard'></i>
+                        <h3>Formateur</h3>
+                    </div>
+
+
+                    <!-- le cercle des professions -->
+                    <div class="circle"></div>
+
+                </div>
+
+                <!-- Contrôle des triangles -->
+                <div class="overlay"></div>   
+                    
+            </div>
+            
+
+            <div class="home-img">
+                <img src="medias/profiler.png" alt="">
+            </div>
+
+    </section>
+    
+
+    <!-- contenu de l'About -->
+
+    <section class="about" id="about">
+
+        <div class="about-container">
+
+            <div class="about-img">
+
+                <img src="medias/about.png" alt="">
+
+            </div>
+
+            <div class="about-content">
+
+                <h1>A propos de <strong>Moi</strong></h1>
+                <h5><strong>Coucou, je suis ici pour t'aider dans tes nouveaux projets</strong></h5>
+                <p>Avec plus de 3 ans d’expérience en tant que Technicien Informatique | Professionnel en TIC et Solutions Numériques, j'accompagne les organisations dans leur transition numérique grâce à des solutions innovantes.</p>
+
+                <a href="#about" class="btn">En savoir plus</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contenu de mes services -->
+
+    <section class="services" id="services">
+
+        <h1>Mes <span>Services</span></h1>
+
+
+        <div class="services-container">
+
+            <div class="services-content">
+                <i class='bx bx-code-alt'></i>
+                <h4>Developpement d'Applications</h4>
+                <p>Je conçois et développe des applications web et mobiles adaptées à vos besoins.
+                    Mon objectif est de fournir des solutions performantes, intuitives et sur mesure, tout en intégrant les meilleures technologies actuelles.
+                </p>
+                <button class="btn">En savoir plus</button>
+            </div>
+            <div class="services-content">
+                <i class='bx bxs-megaphone'></i>
+                <h4>Marketing Digital</h4>
+                <p>Je vous aide à accroître votre visibilité en ligne grâce à des stratégies digitales bien pensées.
+                    Mes services incluent la gestion de campagnes publicitaires (Google Ads, réseaux sociaux), l’optimisation SEO pour améliorer votre classement sur les moteurs de recherche, et bien plus encore.
+                </p>
+                <button class="btn">En savoir plus</button>
+            </div>
+            <div class="services-content">
+                <i class='bx bx-brain'></i>
+                <h4>Consultance Informatique</h4>
+                <p>Je propose des services de consultance pour auditer et optimiser vos infrastructures et systèmes d’information.
+                    Avec des solutions adaptées, je vous accompagne dans l’amélioration des performances de votre entreprise.
+                </p>
+                <button class="btn">En savoir plus</button>
+            </div>
+            <div class="services-content">
+                <i class='bx bx-chalkboard'></i>
+                <h4>Formation en informatique</h4>
+                <p>Je dispense des formations personnalisées pour vous ou vos équipes.
+                    Que ce soit pour la maîtrise des outils bureautiques, la programmation ou le web design, je m’assure de transmettre des compétences pratiques et utiles au quotidien.</p>
+                <button class="btn">En savoir plus</button>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Contenu de la partie Portfolio -->
+
+    <section class="portfolio" id="portfolio">
+
+        <h1>Derniers <span>Projets</span></h1>
+
+        <!-- Contenair des réalisations -->
+        <div class="realisations-contenair">
+
+            <div class="realisations-box">
+                <img src="medias/Accueil.jpg" alt="Porjet">
+
+                <div class="realisations-content">
+                    <h5><strong>Developpement d'Applications</strong></h5>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+                    <a href="#"><i class='bx bx-link-external' id="external"></i></a>
+                </div>
+ 
+            </div>
+            <div class="realisations-box">
+                <img src="medias/Accueil.jpg" alt="Porjet">
+
+                <div class="realisations-content">
+                    <h5><strong>Developpement d'Applications</strong></h5>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+                    <a href="#"><i class='bx bx-link-external' id="external"></i></a>
+                </div>
+ 
+            </div>
+            <div class="realisations-box">
+                <img src="medias/Accueil.jpg" alt="Porjet">
+
+                <div class="realisations-content">
+                    <h5><strong>Developpement d'Applications</strong></h5>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+                    <a href="#"><i class='bx bx-link-external' id="external"></i></a>
+                </div>
+ 
+            </div>
+            <div class="realisations-box">
+                <img src="medias/Accueil.jpg" alt="Porjet">
+
+                <div class="realisations-content">
+                    <h5><strong>Developpement d'Applications</strong></h5>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+                    <a href="#"><i class='bx bx-link-external' id="external"></i></a>
+                </div>
+ 
+            </div>
+            <div class="realisations-box">
+                <img src="medias/Accueil.jpg" alt="Porjet">
+
+                <div class="realisations-content">
+                    <h5><strong>Developpement d'Applications</strong></h5>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+                    <a href="#"><i class='bx bx-link-external' id="external"></i></a>
+                </div>
+ 
+            </div>
+            <div class="realisations-box">
+                <img src="medias/Accueil.jpg" alt="Porjet">
+
+                <div class="realisations-content">
+                    <h5><strong>Developpement d'Applications</strong></h5>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+                    <a href="#"><i class='bx bx-link-external' id="external"></i></a>
+                </div>
+ 
+            </div>
+        </div>
+    
+    </section>
+
+    <div class="temoignages-contenair">
+
+        <h1>Derniers <span>Temoignages</span></h1>
+
+        <!-- contenair des témoignages -->
+        <div class="temoignages-wrapper">
+            <div class="temoignages-box mySwiper">
+                <div class="temoignages-content swiper-wrapper">
+                    <div class="temoignages-slide swiper-slide">
+                        <img src="medias/ks.png" alt="">
+                        <h4>KOUAME ERIC</h4>
+                        <p>" Grâce à son expertise en développement, KOUASSI SIEBE ADELPHE E.V a permis à mon entreprise de gagner en visibilité sur le web "
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore totam quia dolores non fuga voluptatum nesciunt, sapiente, at et, facere commodi amet distinctio voluptatem? Repellat, alias! Earum, voluptate quae! Nulla.
+                        </p>
+                
+                    </div>
+                    <div class="temoignages-slide swiper-slide">
+                        <img src="medias/ksred.png" alt="">
+                        <h4>KOUAME ERIC</h4>
+                        <p>" Grâce à son expertise en développement, KOUASSI SIEBE ADELPHE E.V a permis à mon entreprise de gagner en visibilité sur le web
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, aliquid? Fugit, nisi. Officiis odio delectus dicta similique autem accusantium nostrum nemo iste cum officia. Quam, eum. Quisquam dolore saepe quasi. "</p>
+                
+                    </div>
+                    <div class="temoignages-slide swiper-slide">
+                        <img src="medias/profil.png" alt="">
+                        <h4>KOUAME ERIC</h4>
+                        <p>" Grâce à son expertise en développement, KOUASSI SIEBE ADELPHE E.V a permis à mon entreprise de gagner en visibilité sur le web "
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam assumenda officia quis provident explicabo porro tempore, minima atque quo dolores distinctio est quasi beatae ad expedita quidem ipsum quos sed.
+                        </p>
+                            
+                    </div>
+                    
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Contenu de la partie contact -->
+
+    <section class="contact" id="contact">
+
+        <h1>Contactez<span> Moi</span></h1>
+
+        <form action="" method="post">
+
+            <div class="input-box">
+
+                <input type="text" name="" placeholder="Nom & Prénoms">
+                <input type="email" name=""  placeholder="Adresse email: example@gmail.com">
+
+            </div>
+
+            <div class="input-box">
+
+                <input type="text" name="" placeholder="Objet du message">
+                <input type="number" name=""  placeholder="Numéro de téléphone">
+
+            </div>
+
+            <textarea name="" cols="20" rows="10" placeholder="Entrer votre message"></textarea>
+            <input type="submit" value="Envoyer votre message" class="sender">
+
+        </form>
+
+    </section>
+
+    <!-- Footer design -->
+
+    <footer>
+
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by KOUASSI SIEBE (KS+) | Tous droits reservés</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bi bi-arrow-up"></i></a>
+        </div>
+
+    </footer>
+    <!-- costum swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- costum bootstrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!-- costum js -->
+    <script src="/scripts/index.js"></script>
+</body>
+</html>
