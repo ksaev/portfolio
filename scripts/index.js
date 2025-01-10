@@ -8,8 +8,6 @@ menuIcon.onclick = () => {
 
 };
 
-
-
 /*----- SCROLL ACTIVE SECTION LINKS -----*/
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
@@ -51,6 +49,7 @@ window.onscroll = () =>{
 
 }
 
+
 /*----- Swiper -----*/
 
 var swiper = new Swiper(".mySwiper", {
@@ -67,3 +66,31 @@ var swiper = new Swiper(".mySwiper", {
       prevEl: ".swiper-button-prev",
     },
   });
+
+
+/*----- DARK/WHITE MODE -----*/
+
+let darkmode = document.querySelector('#dark-mode');
+
+darkmode.onclick = () =>{
+  darkmode.classList.toggle('bi-sun');
+  document.body.classList.toggle('darkMode');
+};
+
+
+/*----- SCROOL REVEAL -----*/
+
+ScrollReveal({
+  reset: true,
+  distance: '80px',
+  duration:2000,
+  delay: 200
+});
+
+ScrollReveal().reveal('.home-content, .header, h1', {origin:'top'});
+ScrollReveal().reveal('.home-img img, .about-content h5, .about-content p,.about-content a,.services-container, .portfolio-box, .temoignages-wrapper, .realisations-box, .contact form', {origin:'bottom'});
+ScrollReveal().reveal('.home-content, .about-img img', {origin:'left'});
+ScrollReveal().reveal('.home-content h3, .home-content p, .about-content, .about-img ', {origin:'right'});
+
+
+
