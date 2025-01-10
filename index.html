@@ -60,10 +60,14 @@
                 <a href="https://www.linkedin.com/in/siebe-adelphe-eymard-vianney-kouassi-686b97217/" onclick="window.open(this.href, '_blank'); return false; "rel="noopener noreferrer">
                     <i class='bx bxl-instagram'></i>
                 </a>
+                
+                <a href="https://wa.me/2250758988004" onclick="window.open(this.href, '_blank'); return false; "rel="noopener noreferrer">
+                    <i class="bi bi-whatsapp"></i>
+                </a>
 
             </div>
 
-            <a href="#" class="btn">Télecharger mon CV</a>
+            <a href="" class="btn" id="btn-cv">Télecharger mon CV</a>
 
         </div>
 
@@ -291,23 +295,16 @@
 
         <h1>Contactez<span> Moi</span></h1>
 
-        <form action="" method="post">
+
+        <form action="https://formspree.io/f/xbllqdld" method="POST">
 
             <div class="input-box">
 
-                <input type="text" name="" placeholder="Nom & Prénoms">
-                <input type="email" name=""  placeholder="Adresse email: example@gmail.com">
+                <input type="email" name="email"  placeholder="Adresse email: example@gmail.com" required>
 
             </div>
 
-            <div class="input-box">
-
-                <input type="text" name="" placeholder="Objet du message">
-                <input type="number" name=""  placeholder="Numéro de téléphone">
-
-            </div>
-
-            <textarea name="" cols="20" rows="10" placeholder="Entrer votre message"></textarea>
+            <textarea name="message" cols="20" rows="10" placeholder="Entrer votre message" required></textarea>
             <input type="submit" value="Envoyer votre message" class="sender">
 
         </form>

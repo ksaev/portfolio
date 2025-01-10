@@ -93,4 +93,17 @@ ScrollReveal().reveal('.home-content, .about-img img', {origin:'left'});
 ScrollReveal().reveal('.home-content h3, .home-content p, .about-content, .about-img ', {origin:'right'});
 
 
+/*----- DOWNLOAD CV -----*/
+document.getElementById('btn-cv').addEventListener('click', () =>{
+  const link = document.createElement('a');
+  link.href ='documents/CV_Kouassi_Siebe_Adelphe_Eymard_Vianney.pdf';
+  link.download = 'CV_Kouassi_Siebe_Adelphe_Eymard_Vianney.pdf';
+
+  link.click();
+});
+
+
+
+
+
 
