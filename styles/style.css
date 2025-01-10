@@ -1080,7 +1080,7 @@ footer .footer-iconTop i{
     }
 
     .home .profession-container .profession-box .profession:nth-child(1){
-        transform: rotate(-90deg) translate(-110px,-220px);
+        transform: rotate(-90deg) translate(-105px,-215px);
 
     }
 
@@ -1089,17 +1089,17 @@ footer .footer-iconTop i{
     } */
 
     .home .profession-container .profession-box .profession:nth-child(2){
-        transform: rotate(0deg) translate(5px, -335px);
+        transform: rotate(0deg) translate(5px, -320px);
 
     }
 
     .home .profession-container .profession-box .profession:nth-child(3){
-        transform: rotate(90deg) translate(-115px, -430px);
+        transform: rotate(90deg) translate(-90px, -415px);
 
     }
 
     .home .profession-container .profession-box .profession:nth-child(4){
-        transform: rotate(180deg) translate(-210px, -335px);
+        transform: rotate(180deg) translate(-180px, -315px);
 
     }
 
