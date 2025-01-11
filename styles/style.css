@@ -93,7 +93,7 @@ h1{
 
 .logo{
     margin-right: auto;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 600;
     color: var(--blue-color);
     text-decoration: none;
@@ -1092,7 +1092,7 @@ footer .footer-iconTop i{
     }
 
     .home{
-        padding: 0 3% 45rem;
+        padding: 0 3% 40rem;
     }
 
     .home .profession-container .profession-box .profession:nth-child(1){
