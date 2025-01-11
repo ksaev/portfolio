@@ -38,7 +38,7 @@ window.onscroll = () =>{
 
     let header = document.querySelector('header');
     
-    header.classList.toggle('sticky', window.scrollY > 100);
+    header.classList.toggle('sticky', window.scrollY > 50);
 
 
 /*----- Enlève le Navbar lorsqu'on clique les linens du menu-----*/
