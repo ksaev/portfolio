@@ -1032,15 +1032,12 @@ footer .footer-iconTop i{
         display: flex;
         flex-direction: column-reverse;
         text-align: center;
-        margin: 5rem 3% 2rem;
-        width: 100%;
+        margin: 0rem;
 
     }
 
     .about .about-container .about-content{
         max-width: 100%;
-        margin: 5rem 3% 2rem;
-
     }
 
     .about-content h1{
@@ -1127,6 +1124,13 @@ footer .footer-iconTop i{
 
     .home .profession-container .profession-box .profession:nth-child(4){
         transform: rotate(180deg) translate(-180px, -315px);
+
+    }
+
+    .about .about-container{
+
+        margin: 0rem 0 2rem;
+        overflow: hidden;
 
     }
 
