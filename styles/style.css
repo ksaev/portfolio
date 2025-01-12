@@ -1040,6 +1040,11 @@ footer .footer-iconTop i{
         max-width: 100%;
     }
 
+    .about .about-container .about-content h1{
+        max-width: 100%;
+        margin-top: -8rem;
+    }
+
     .about-content h1{
         text-align: center;
     }
