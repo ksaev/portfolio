@@ -68,6 +68,10 @@ h1{
     font-size: 4.2rem;
     font-weight: 700;
     line-height: 1;
+    padding-top: 0;
+    margin-top: 0;
+
+    padding-bottom: 2rem;
 }
 
 .header{
@@ -461,7 +465,8 @@ section{
 
 
 .services h1{
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
     text-align: center;
 
 }
@@ -507,8 +512,8 @@ section{
 }
 
 .portfolio h1{
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
     text-align: center;
 
 }
@@ -577,7 +582,7 @@ section{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 5rem 1rem;
+    padding: 0rem 1rem;
 }
 
 .temoignages-contenair span{
@@ -585,7 +590,7 @@ section{
 }
 
 .temoignages-contenair h1{
-    margin-top: 8rem;
+    margin-top: 0rem;
     text-align: center;
 
 }
@@ -1021,6 +1026,14 @@ footer .footer-iconTop i{
         overflow: hidden ;
     }
 
+    h1{
+        padding-top: 0;
+        margin-top: 0;
+
+        padding-bottom: 2rem;
+    }
+    
+
     .about .about-container{
         flex-direction: column-reverse;
         text-align: center;
@@ -1036,7 +1049,7 @@ footer .footer-iconTop i{
     }
 
     .about-content .about-img{
-        width: 70vw;
+        width: 200vw;
         margin-bottom: 8rem;
     }
 
