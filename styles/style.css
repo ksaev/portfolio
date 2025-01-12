@@ -1042,7 +1042,6 @@ footer .footer-iconTop i{
 
     .about .about-container .about-content h1{
         max-width: 100%;
-        margin-top: -8rem;
     }
 
     .about-content h1{
@@ -1137,6 +1136,11 @@ footer .footer-iconTop i{
         margin: 0rem 0 2rem;
         overflow: hidden;
 
+    }
+
+    .about .about-container .about-content h1{
+        max-width: 100%;
+        margin: -12rem;
     }
 
     .contact form .input-box input{
