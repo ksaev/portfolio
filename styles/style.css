@@ -68,10 +68,6 @@ h1{
     font-size: 4.2rem;
     font-weight: 700;
     line-height: 1;
-    padding-top: 0;
-    margin-top: 0;
-
-    padding-bottom: 2rem;
 }
 
 .header{
@@ -165,6 +161,7 @@ section{
 .home{
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .home .home-content{
@@ -344,7 +341,7 @@ section{
 
 
 .about{
-    margin-top: 4rem;
+    margin-top: 2rem;
     display: flex;
     gap: 4rem;
     justify-content: center;
@@ -367,7 +364,7 @@ section{
 }
 
 .about .about-container .about-img img{
-    width: 25vw ;
+    width: 20vw ;
     height: 70% ;
     top: 0;
     background: var(--blue-color);
@@ -409,8 +406,7 @@ section{
 }
 
 .services{
-    margin-top: 5rem;
-    margin: auto;
+    margin-top: 14rem;
 }
 
 .services .services-container{
@@ -465,8 +461,7 @@ section{
 
 
 .services h1{
-    margin-bottom: 0em;
-    margin-top: 0rem;
+    margin-bottom: 4rem;
     text-align: center;
 
 }
@@ -513,7 +508,7 @@ section{
 
 .portfolio h1{
     margin-top: 0rem;
-    margin-bottom: 0rem;
+    margin-bottom: 4rem;
     text-align: center;
 
 }
@@ -590,7 +585,7 @@ section{
 }
 
 .temoignages-contenair h1{
-    margin-top: 0rem;
+    margin-top: 4rem;
     text-align: center;
 
 }
@@ -599,7 +594,7 @@ section{
     position: relative;
     width: 100%;
     max-width: 90rem;
-    padding: 5rem;
+    padding: 2rem;
 }
 
 .temoignages-content .temoignages-slide{
@@ -1026,22 +1021,26 @@ footer .footer-iconTop i{
         overflow: hidden ;
     }
     
-
+    .about{
+        margin-top: -5rem;
+    }
 
     .about .about-container{
         display: flex;
         flex-direction: column-reverse;
         text-align: center;
-        margin: 0rem;
 
     }
 
     .about .about-container .about-content{
         max-width: 100%;
+        margin-top: 18rem ;
+        padding: .2rem;
     }
 
     .about .about-container .about-content h1{
-        max-width: 100%;
+        padding: 2rem;
+
     }
 
     .about-content h1{
@@ -1053,7 +1052,7 @@ footer .footer-iconTop i{
     }
 
     .services, .portfolio{
-        margin-bottom: 0rem;
+        margin-bottom: 2rem;
     }
 
 
@@ -1129,18 +1128,6 @@ footer .footer-iconTop i{
     .home .profession-container .profession-box .profession:nth-child(4){
         transform: rotate(180deg) translate(-180px, -315px);
 
-    }
-
-    .about .about-container{
-
-        margin: 0rem 0 2rem;
-        overflow: hidden;
-
-    }
-
-    .about .about-container .about-content h1{
-        max-width: 100%;
-        margin: -12rem;
     }
 
     .contact form .input-box input{
