@@ -367,7 +367,7 @@ section{
 }
 
 .about .about-container .about-img img{
-    width: 20vw ;
+    width: 25vw ;
     height: 70% ;
     top: 0;
     background: var(--blue-color);
@@ -465,8 +465,8 @@ section{
 
 
 .services h1{
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-bottom: 0em;
+    margin-top: 0rem;
     text-align: center;
 
 }
@@ -1025,36 +1025,34 @@ footer .footer-iconTop i{
         border-width: 23.9rem;
         overflow: hidden ;
     }
-
-    h1{
-        padding-top: 0;
-        margin-top: 0;
-
-        padding-bottom: 2rem;
-    }
     
 
+
     .about .about-container{
+        display: flex;
         flex-direction: column-reverse;
         text-align: center;
+        margin: 5rem 3% 2rem;
+        width: 100%;
 
     }
 
     .about .about-container .about-content{
         max-width: 100%;
+        margin: 5rem 3% 2rem;
+
     }
 
-    .about-content h2{
+    .about-content h1{
         text-align: center;
     }
 
-    .about-content .about-img{
-        width: 200vw;
-        margin-bottom: 8rem;
+    .about-container .about-img img{
+        width: 200vw; 
     }
 
     .services, .portfolio{
-        margin-bottom: 3rem;
+        margin-bottom: 0rem;
     }
 
 
