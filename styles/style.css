@@ -1099,16 +1099,27 @@ footer .footer-iconTop i{
     }
 
     #dark-mode{
-        right: 7rem;
+        right: 9rem;
     }
 
     .home{
         padding: 0 3% 40rem;
     }
 
+    .about{
+        top: 12rem;
+        width: 100%;
+        height: auto;
+    }
+
     .home .profession-container .profession-box .profession:nth-child(1){
         transform: rotate(-90deg) translate(-105px,-215px);
+    }
 
+    .realisations-box img{
+        width:100%;
+        height: auto; /* Hauteur fixe */
+        border-radius: 1; 
     }
 
     /* .home .profession-container .profession-box .profession:nth-child(1) i{
