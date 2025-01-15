@@ -107,7 +107,7 @@ h1{
     font-size: 1.5rem;
     color: var(--secondary-bg-color);
     font-weight: 400;
-    margin-right: 3.5rem;
+    margin-right: 2rem;
     
 }
 
@@ -1093,6 +1093,32 @@ footer .footer-iconTop i{
 }
 
 @media (max-width:478px){
+
+    .about .about-container .about-img{
+        display:contents;
+        width: 100%;
+    }
+    
+    .about .about-container .about-img img{
+        width: 35vw ;
+        height: 100% ;
+        top: 0;
+        background: var(--blue-color);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about .about-container {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .about .about-container .about-content{
+        max-width: 50rem;
+        margin : 30px;
+    }
 
     html{
         font-size: 50%;
