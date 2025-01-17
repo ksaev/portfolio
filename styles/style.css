@@ -148,7 +148,7 @@ h1{
 
 
 #menu-icon{
-    font-size: 2.4rem;
+    font-size: 2.6rem;
     display: none;
     color: var(--bg-color);
 }
@@ -893,9 +893,9 @@ footer .footer-iconTop i{
     #menu-icon {
         position: absolute;
         display: block;
-        right: 12rem;
-        bottom: 2.5rem;
-        font-size: 2.6rem;
+        right: 7rem;
+        bottom: 1.9rem;
+        font-size: 3.6rem;
         margin-bottom: .1rem;
         color: var(--black-color);
         margin: 0;
@@ -904,7 +904,7 @@ footer .footer-iconTop i{
 
     #dark-mode {
         position: absolute;
-        right: 17rem;
+        right: 12rem;
         bottom: 2.5rem;
         font-size: 2.6rem;
         margin-bottom: .1rem;
