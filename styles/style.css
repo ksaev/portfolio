@@ -891,8 +891,9 @@ footer .footer-iconTop i{
 
 @media (max-width: 768px) {
     #menu-icon {
+        position: absolute;
         display: block;
-        right: 7rem;
+        right: 9rem;
         bottom: 1.9rem;
         font-size: 3.6rem;
         margin-bottom: .1rem;
@@ -902,8 +903,8 @@ footer .footer-iconTop i{
     }
 
     #dark-mode {
-        display: block;
-        right: 12rem;
+        position: absolute;
+        right: 14rem;
         bottom: 2.5rem;
         font-size: 2.6rem;
         margin-bottom: .1rem;
