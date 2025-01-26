@@ -21,7 +21,7 @@
     --black-color: black;
     --secondary-bg-color: rgb(251, 251, 255);
     --bg-color: white;
-    --blue-color:rgb(120, 26, 213);
+    --blue-color:rgb(50, 137, 183);
 }
 
 .darkMode{
@@ -909,7 +909,7 @@ footer .footer-iconTop i{
         font-size: 2.6rem;
         margin-bottom: .1rem;
         color: var(--black-color);
-    }
+    } 
 
     .header .navbar {
         position: absolute;
